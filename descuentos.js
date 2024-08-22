@@ -19,8 +19,8 @@ function onClickButtonPrecioDescuento(){
 
 function limpiarDatos(){
 
-    document.getElementById("InputPrecio").value;("");
-    document.getElementById("InputDescuento").value("");
+    document.getElementById("InputPrecio").value = "";
+    document.getElementById("InputDescuento").value = "";
     document.getElementById("ResultadoP").innerText = "";
 
 }
