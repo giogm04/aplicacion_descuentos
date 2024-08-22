@@ -16,3 +16,11 @@ function onClickButtonPrecioDescuento(){
     document.getElementById("ResultadoP").innerText = "Precio con descuento: $" + precioConDescuento;
     
 }
+
+function limpiarDatos(){
+
+    $("#InputPrecio").val("");
+    $("#InputDescuento").val("");
+    $("#ResultadoP").text("");
+
+}
